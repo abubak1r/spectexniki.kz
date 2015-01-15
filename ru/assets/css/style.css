@@ -1,0 +1,105 @@
+body { 
+  background: url(assets/img/bground.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#header
+{
+ position:absolute;
+ top:0px;
+ left:0px;
+ right:0px;
+ height:20%;
+ overflow:hidden;
+ width: 60%;
+ margin-left: 350px;
+ margin-right: 127px;
+
+}
+#header2
+{
+ height:20%;
+ overflow:hidden;
+ width: 80%;
+ margin-left: 127px;
+ margin-right: 127px;
+ position: relative;
+ text-align: right;
+ font: bold 80% Verdana, Helvetica, sans-serif;
+ margin-bottom: 2px;
+ padding-right: 5px;
+}
+#header2 a{
+	text-decoration: none;
+	text-align: right;
+}
+#header3
+{
+ height:20%;
+ overflow:hidden;
+ width: 80%;
+ margin-left: 127px;
+ margin-right: 127px;
+
+}
+
+#leftSide
+{
+ position:absolute;
+ top:210px;
+ left:0px;
+ width:250px;
+ bottom:21%;
+ margin-left: 127px;
+}
+#rightSide
+{
+ position:absolute;
+ top:21%;
+ right:0px;
+ width:250px;
+ bottom:21%;
+   margin-right: 127px;
+}
+#footer
+{
+ position:absolute;
+ height:30%;
+ left:0px;
+ right:0px;
+ bottom: -100px;
+ /*width: 80%;
+ margin-left: 127px;*/
+}
+#footer2
+{
+position: relative;
+right:0px;
+left:20px;
+top:500px;
+font-family: Verdana;
+font-size: 14px;
+
+}
+#footer2 td{
+	margin-left: 10px;
+	padding-right: 10px;
+	width: 200px;
+}
+#footer2 a{
+
+	padding-bottom: 2px;
+}
+#content
+{
+ position:absolute;
+ top:21%;
+ bottom:21%;
+ left:30%;
+ width:510px;
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+}
+/*div {display:block; border: 1px black solid;}*/
